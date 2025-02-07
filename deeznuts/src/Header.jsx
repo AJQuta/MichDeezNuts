@@ -1,17 +1,14 @@
 import React from 'react';
 import { Button } from '@mui/material';
+import HeaderMainButton from "./buttonComponents/HeaderMainButton.jsx";
 function Header() {
 
-    const handleClick = () => {
-        alert('hi');
-    };
 
+//HeaderMainButton text="pls work"/>
 
     return <header>
         Epic header that totally works
-        <Button onClick={handleClick} color={"primary"}>
-            Material Button
-        </Button>
+        <HeaderMainButton text="pls work" /*style={{ right: '50%' }}*//>
     </header>
 
 } export default Header
