@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from '@mui/material';
 import HeaderMainButton from "./buttonComponents/HeaderMainButton.jsx";
+import { Box } from '@mui/material/Box'
 function Header() {
 
 

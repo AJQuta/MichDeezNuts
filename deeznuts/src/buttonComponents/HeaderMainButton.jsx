@@ -7,7 +7,7 @@ const handleClick = () => {
 };
 
 function HeaderMainButton({text}) {
-    return <Button variant="contained" onClick={handleClick} color={"primary"}>
+    return <Button variant="contained" onClick={handleClick} color={"primary"} >
         {text}
     </Button>
 
